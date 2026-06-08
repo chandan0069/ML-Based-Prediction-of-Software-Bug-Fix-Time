@@ -11,7 +11,7 @@ from schema import BugInput, PredictionOutput
 
 
 # Model loading
-MODEL_PATH = "model/best_rf_pipeline.joblib"   # swap for stack_pipeline.joblib if preferred
+MODEL_PATH = "model/best_rf_pipeline.joblib"
 model = None
 
 @asynccontextmanager
